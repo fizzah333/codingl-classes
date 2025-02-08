@@ -1,0 +1,31 @@
+/* global css */
+* {
+    background-color: aquamarine;
+    font-family: cursive;
+}
+
+/* External CSS */
+h3 {
+    color: blue;
+}
+
+/* element selector */
+h4 {
+    color: rgb(241, 138, 12);
+}
+
+/* class selector */
+.myclass {
+    color: brown;
+}
+
+/* id selector */
+#myid {
+    color: rgb(192, 33, 107);
+}
+
+/* group selector */
+h5,
+p {
+    color: rgb(41, 2, 2);
+}
