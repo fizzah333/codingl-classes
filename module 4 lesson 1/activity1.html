@@ -9,12 +9,20 @@
 
     <h1 id="myH"></h1>
     <p id="myP"></p>
+    <h1>JavaScript Variables</h1>
+    <p>Sum of 2 numbers </p>
+    <p id="value"></p>
 
     <script>
         //my heading
         document.getElementById("myH").innerHTML = "JavaScript comments"
         //my paargraph
-        document.getElementById("myP").innerHTML = "My first paragrapgh."        
+        document.getElementById("myP").innerHTML = "My first paragrapgh."
+        var a = 19; //statement 1
+        var b = 14;//statement 2
+        var c = a + b;//statement 3
+        document.getElementById("value").innerHTML = "the total sum is : " + c;
+
     </script>
 
 </body>
