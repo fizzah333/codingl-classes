@@ -11,17 +11,30 @@
     <p id="myP"></p>
     <h1>JavaScript Variables</h1>
     <p>Sum of 2 numbers </p>
-    <p id="value"></p>
+    <p id="addition"></p>
+    <p id="subtraction"></p>
+    <p id="multiplication"></p>
+    <p id="division"></p>
+    </p>
 
     <script>
         //my heading
         document.getElementById("myH").innerHTML = "JavaScript comments"
         //my paargraph
         document.getElementById("myP").innerHTML = "My first paragrapgh."
-        var a = 19; //statement 1
-        var b = 14;//statement 2
+        var a = 32; //statement 1
+        var b = 4;//statement 2
         var c = a + b;//statement 3
-        document.getElementById("value").innerHTML = "the total sum is : " + c;
+        var d = a - b;//statement 4
+        var e = a * b;//statement 5
+        var f = a / b;//statement 6
+        document.getElementById("addition").innerHTML = "the total sum is : " + c;
+        document.getElementById("subtraction").innerHTML = "the subtraction is : " + d;
+        document.getElementById("multiplication").innerHTML = "the multipliaction is : " + e;
+        document.getElementById("division").innerHTML = "the division is : " + f;
+
+
+
 
     </script>
 
