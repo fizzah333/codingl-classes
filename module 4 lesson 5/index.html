@@ -6,12 +6,22 @@
 </head>
 
 <body>
+    <h2>Introduction to Arrays in JS</h2>
     <p id="demo"></p>
+    <h2>JavaScript Array methods</h2>
+    <h3>Join () and Pop ()</h3>
+    <p>The join method () joins array elements into a string and pop () removes the last element of a array.</p>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
     <script>
         var studies = ["Geography", "History", "Urdu", "Cartography", "art", "spanish"];
         document.getElementById("demo").innerHTML = studies[0];
+        document.getElementById("myjoin").innerHTML = studies.join(" , ");
+        document.getElementById("myfirstpop").innerHTML = studies;
+        studies.pop()
+        document.getElementById("mysecondpop").innerHTML = studies;
     </script>
-
 </body>
 
 </html>
