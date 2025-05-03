@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting and reversing in JS</title>
+</head>
+<body>
+    <centre><h2>Sorting and Reversing in JS</h2></centre>
+    <p>Click this button for Ascending order</p>
+    <p id="result1"></p>
+    <button onclick="ascending()">Click me !</button>
+    <p>Click this button for Descending order</p>
+    <p id="result2"></p>
+    <button onclick="descending()">Click me !</button>
+    <script>
+        var points = [40 , 100 , 46 , 78 , 93 , 20]
+        function ascending ( ){
+            points.sort(function(a,b){return a-b})
+            document.getElementById("result1").innerHTML=points;
+        }
+         function descending() {
+                points.sort(function (a, b) { return b - a })
+                document.getElementById("result2").innerHTML = points;
+            }
+
+    </script>
+</body>
+</html>
