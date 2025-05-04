@@ -1,0 +1,18 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>Error Handling in JavaScript</title>
+    </head>
+    <body>
+        <h2>Error Handling in JavaScript</h2>
+        <p>Its a fuction that defines an error in our JS code and has two types <b>"Try"</b> and <b>"Catch".</b></p>
+        <p id="error_message"></p>
+        <script>
+            try {
+                addalert("I study in grade 10")
+            }
+            catch(err) {
+                document.getElementById("error_message").innerHTML = err.message
+            }
+        </script>
+    </body>
+</html>
