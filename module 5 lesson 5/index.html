@@ -1,0 +1,26 @@
+<!DOCTYPE html><html>
+    <head>
+        <title>Learning about JSON in JS</title>
+    </head>
+    <body>
+        <h2 style="color: rgb(113, 23, 23);">Learning about JSON in JS code !</h2>
+        <p>Its a way in which the code can be presented in a much tidier way.</p>
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <script>
+            var bio = {
+                name:"Fizzah",
+                grade:9 ,
+                favouritesports:"Basketball"
+            }
+            //coverting it into JSON//
+            var myJson = JSON.stringify(bio)
+            document.getElementById("result1").innerHTML = myJson
+            //coverting it into JS//
+            var newObj = JSON.parse(myJson)
+            document.getElementById("result2").innerHTML = newObj.favouritesports
+
+        </script>
+    </body>
+
+</html>
