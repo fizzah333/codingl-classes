@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Enter a number and click OK:</p>
+    <input id="id1" type="number" min="100" max="300" required>
+    <button onclick="myFunction()">OK</button>
+    <b>
+        <p style="color: red;">Make sure the input is between 100 and 300</p>
+    </b>
+    <p id="message"></p>
+    <script>
+        function myFunction() {
+            var input = document.getElementById("id1");
+            if (!input.checkValidity()) {
+                document.getElementById("message")
+                innerHTML = input.validationMessage;
+            } else {
+                document.getElementById("message").innerHTML = "Input looks OK!!";
+            }
+        }
+    </script>
+</body>
+
+</html>
