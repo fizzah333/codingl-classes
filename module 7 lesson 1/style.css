@@ -1,0 +1,40 @@
+/* Global Properties */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: #ef8296;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+/* Main Heading Font */
+
+.m-heading {
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* Navigation */
+
+.navigation-link {
+
+    border: 2px solid transparent;
+
+}
+
+.navigation-link:hover {
+
+    text-decoration: #ef8296;
+
+    border-bottom: 2px solid #f232a2;
+
+    transition: 0.5s ease;   }
