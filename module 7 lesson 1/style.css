@@ -10,8 +10,7 @@ body {
 
     background: #ef8296;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -38,3 +37,12 @@ body {
     border-bottom: 2px solid #f232a2;
 
     transition: 0.5s ease;   }
+.banner-image {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("landscape.img");
+    background-size: cover;
+}
