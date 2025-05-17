@@ -46,3 +46,10 @@ body {
     background-image: url("landscape.img");
     background-size: cover;
 }
+.about-image {
+    height: 400px;
+    width: 400px;
+}
+.about-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
