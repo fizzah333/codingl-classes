@@ -53,3 +53,10 @@ body {
 .about-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.media_link {
+    padding: 1rem;
+    max-width: 12rem;
+    margin-left: 1rem;
+    border: 2px solid #f10972;
+    border-radius: 0.5rem;  
+}
